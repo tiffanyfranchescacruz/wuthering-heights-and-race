@@ -1,0 +1,82 @@
+@namespace 
+	"http://www.tei-c.org/ns/1.0";
+@namespace tc 
+	"http://www.tiffanyfranchescaccruz.com/ns"; 
+
+teiHeader{
+	display:none;
+}
+
+text {
+	font-family:arial, helvetica, sans-serif;
+	color: black;
+}
+
+opener > name {
+	margin-left: 3em;
+	display:block;	
+}
+
+p {margin-left: 3em; 
+	margin-top: 1em; 
+	display: block; 
+}
+
+closer {margin-left: 3em; 
+	margin-top: 1em; 
+}
+persName {color:red;}
+
+placeName {color:green;}
+
+tc|raceDesc {color:green;}
+
+salute {display:block;
+	font-style:italic;}
+
+signed {font-family:fantasy;}
+
+pb:before {
+	content: "[page " attr(n) "]";
+	color:blue;
+	display:block;
+	margin-top:2em;
+	margin-bottom:2em;
+	margin-left: 2em;
+}
+
+lb {
+	display: block;
+}
+
+add:before {
+	content: "["
+}
+
+add {
+	color: red;
+	display:inline;
+}
+
+p > add {
+	color:lime;
+}
+
+add:after {
+	content: "]"
+}
+
+
+list[type="numbered"] > item {
+	display:block;
+}
+
+list[type="numbered"] > item:before { 
+	content: attr(n) ". my stuff here"; 
+	}
+	
+	
+	
+	
+	
+	
