@@ -4,7 +4,8 @@
 	"http://www.tiffanyfranchescaccruz.com/ns"; 
 
 teiHeader{
-	display:block;
+	margin-left: 3em;
+	display:block;	
 	font-family:arial, helvetica, sans-serif;
 	color: black
 }
