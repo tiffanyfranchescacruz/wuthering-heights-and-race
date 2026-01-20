@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>The Moor’s Shadow: Encoding Racial Language in Wuthering Heights with TEI</title>
+		<link rel="stylesheet" href="html.css" />
+	</head>
+	<body>
+		<p class="navigation">
+			<a href="index.html">Homepage</a> | <a href="introduction.html">Introduction</a> | <a href="methodology.html"
+				>Methodology</a> | <a href="encoded_text.html">Encoded Text</a> | <a href="further_reading.html">Further Reading</a> | <a
+					href="about.html">About</a> | </p>
+		<div>
+			<h1>Methodology</h1>
+			<h3>Background:</h3>
+			<p>This project combines textual encoding and thematic analysis to examine racialized
+				language in <em>Wuthering Heights</em> (1847), specifically the representation of
+				Heathcliff. I initially planned to study <em>Wuthering Heights</em> alongside
+				several adaptations, focusing on how racial language shifts across adaptations and
+				compare those differences to the original version. However, I found that working
+				across three texts made it difficult to develop the depth of analysis I wanted and
+				it would require a more complex customization that could be used across the novels.
+				Therefore, I narrowed the project to focusing on <em>Wuthering Heights</em> alone.
+				This allowed me to closely examine its racialized language and create a more
+				customized, TEI (Text Encoding Initiative)-driven framework for examining
+				Heathcliff’s depiction.</p>
+			<h3>Text Preparation:</h3>
+			<p>The project uses the 1847 edition of <a
+					href="https://www.gutenberg.org/files/768/768-h/768-h.htm"><em>Wuthering
+						Heights</em></a>, with special attention to language shaping Heathcliff’s
+				racial ambiguity. I begin by preparing a clean digital text from a public-domain
+				edition available on project Gutenberg. I deleted any extra pieces that weren’t a
+				part of the story from the online version which allowed me to isolate the novel into
+				each chapter which I was then able to copy into Oxygen—the software I used to
+				complete my encoding. </p>
+			<h3>TEI Encoding: </h3>
+			<p>I began with the <strong>"seg"</strong> element as an initial tool to highlight and
+				isolate racialized language throughout the text. Racialized language refers to
+				words, descriptions, or labels that assign social meaning to race and shape how
+				certain groups are perceived or treated, and in Wuthering Heights this matters for
+				Heathcliff because the ambiguous, often derogatory terms used to describe him
+				construct him as racially Other and influence how characters interpret his identity,
+				status, and place within the household and community. </p>
+			<p>Through these initial exploratory markings, I noticed that patterns were more
+				consistent and analytically rich when focusing specifically on Heathcliff’s
+				descriptions. Through these markings I could see how different characters described
+				him and it became clear that creating a custom code would allow me to express these
+				patterns. I conducted repeated close readings to observe connections between
+				descriptive language, narrative voice, and the historical context. By combining this
+				with the TEI it allowed for the project to become a way of making patterns of
+				racialized description visible, comparable, and analyzable beyond traditional close
+				reading. </p>
+			<p>I created an ODD file—a special XML file used to define and customize TEI
+				schemas—which allowed for me to have a custom schema that I could add to and input
+				my custom elements inside along with descriptions of them. The two custom tags I
+				created are: </p>
+			<p>
+				<strong>"raceDesc"</strong> with <strong>type=”explicit”</strong> or
+					<strong>type=”implied”</strong> to distinguish direct vs. indirect racial
+				descriptors. Explicit descriptors refer to direct racial labels or comments stated
+				openly in the text, while implied descriptors rely on indirect hints—such as
+				appearance, behavior, or social treatment—that suggest racial meaning without naming
+				it outright. </p>
+			<p><em>Example 1:</em> “He is a <strong>“tc:racedesc
+				type=”explicit”</strong>dark-skinned gipsy <strong>”tc:racedesc”</strong> in
+				aspect.”  </p>
+			<p>
+				<em>Example 2:</em> “A perfect <strong>“tc:racedesc
+				type=”implied”</strong>misanthropist’s <strong>tc:racedesc”</strong> Heaven—and Mr.
+				Heathcliff and I are such a suitable pair to divide the desolation between us.”</p>
+			<p>
+				<strong>“raceContext”</strong> with <strong>type=”historical”</strong> to indicate
+				the contextual frame for the racialization. Historical context includes ideas and
+				events related to race and history from the past.  </p>
+			<p>
+				<em> Example 1:</em> The master tried to explain the matter; but he was really half
+				dead with fatigue, and all that I could make out, amongst her scolding, was a tale
+				of his seeing it starving, and houseless, and as good as dumb, in the streets of
+					<strong>“tc:racecontext
+					type=”historical”</strong>Liverpool<strong>”tc:racecontext”</strong>, where he
+				picked it up and inquired for its owner.”</p>
+			<p>The encoded text section consists of multiple drop down pages users can navigate
+				through. The entire encoded text has been uploaded to allow for users to view the
+				entirety in one space. In the chapter breakdowns these include the sections I have
+				encoded using my custom code. My hope is this will allow users to view the specific
+				language I wanted to highlight and this can also be a great way to focus on the
+				chapters within the larger context of the novel. </p>
+			<h3>Conclusion</h3>
+			<p>This combination of close reading and customized TEI encoding allows for a nuanced
+				exploration of the novel’s racialized language, revealing patterns that traditional
+				analysis might overlook.Through exploring the novel as a whole users can witness the
+				patterns within the text and also I hope they can come away with new revelations
+				that allow for deep engagement with Heathcliff’s character. By situating these
+				findings within historical and social contexts, the project offers a new digital
+				framework to engage with Heathcliff’s complex identity. The resulting encoded text
+				and schema are publicly accessible, designed to support further scholarship,
+				teaching, and critical discussion around race in nineteenth-century literature.</p>
+
+		</div>
+	</body>
+</html>
