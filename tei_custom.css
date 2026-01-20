@@ -1,7 +1,5 @@
-@namespace url
-	("http://www.tei-c.org/ns/1.0");
-@namespace tc url
-	("http://www.tiffanyfranchescaccruz.com/ns"); 
+@namespace url("http://www.tei-c.org/ns/1.0");
+@namespace tc url("http://www.tiffanyfranchescaccruz.com/ns"); 
 
 teiHeader{
 	margin-left: 3em;
