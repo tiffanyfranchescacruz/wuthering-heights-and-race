@@ -1,13 +1,26 @@
-body {background-color: #c0a891}
-p {margin-left: 5em;
+body {
+    background-color: #c0a891
+}
+p {
+    margin-left: 5em;
     margin-top: 1em;
     display: block;
-    font-family:western, fantasy
+  font-family: "EB Garamond", serif;
+  font-style: normal;
 }
-h1 {font-family:western, fantasy}
-h3 {font-family:western, fantasy}
-li {font-family:western, fantasy}
-p.navigation {font-weight:bold;
-    color:#b30e67}
-    strong {color:#cc1076}
-
+em {font-style: italic}
+h1 {
+    font-family: "EB Garamond", serif
+}
+h3 {
+    font-family: "EB Garamond", serif
+}
+li {
+    font-family: "EB Garamond", serif
+}
+p.navigation {
+    font-weight: bold;
+    color: #b30e67}
+strong {
+    color: #cc1076
+}
