@@ -1,5 +1,5 @@
 body {
-    background-color: #c0a891
+    background-color: #EFF7F9
 }
 p {
     margin-left: 5em;
@@ -7,20 +7,24 @@ p {
     display: block;
   font-family: "EB Garamond", serif;
   font-style: normal;
+  color: #3D2817
 }
 em {font-style: italic}
 h1 {
-    font-family: "EB Garamond", serif
+    font-family: "EB Garamond", serif;
+    color: #1E4A6D
 }
 h3 {
-    font-family: "EB Garamond", serif
+    font-family: "EB Garamond", serif;
+    color: #1E4A6D
 }
 li {
-    font-family: "EB Garamond", serif
+    font-family: "EB Garamond", serif;
+    color: #5A7A68
 }
 p.navigation {
     font-weight: bold;
     color: #b30e67}
 strong {
-    color: #cc1076
+    color: #C85A28
 }
