@@ -8,9 +8,47 @@ teiHeader{
 	color: black
 }
 
+titleStmt > title {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em auto;
+  font-family: arial, helvetica, sans-serif;
+}
+
+bibl {
+  display: block;
+  font-family: arial, helvetica, sans-serif;
+  margin: 0.5em 0;
+}
+
+bibl > author {
+  display: block;
+  font-style: italic;
+}
+
+bibl > date {
+  display: block;
+  color: gray;
+}
+
+sourceDesc > p > title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em auto;
+  font-family: arial, helvetica, sans-serif;
+}
+
 text {
-	font-family:arial, helvetica, sans-serif;
-	color: black;
+  font-family: arial, helvetica, sans-serif;
+  color: black;
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 opener > name {
@@ -26,11 +64,12 @@ p {margin-left: 3em;
 closer {margin-left: 3em; 
 	margin-top: 1em; 
 }
-persName {color:red;}
+name {color:red;}
 
-placeName {color:green;}
+tc|racedesc[type="explicit"] {color: green;}
+tc|racedesc[type="implied"] {color: blue;}
 
-tc|racedesc {color:green;}
+tc|racecontext {color:purple;} 
 
 salute {display:block;
 	font-style:italic;}
