@@ -9,6 +9,13 @@ p {
   font-style: normal;
   color: #3D2817
 }
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 em {font-style: italic}
 h1 {
     font-family: "EB Garamond", serif;
