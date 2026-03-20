@@ -23,12 +23,6 @@ p {margin-left: 3em;
 	display: block; 
 }
 
-body {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
 closer {margin-left: 3em; 
 	margin-top: 1em; 
 }
@@ -36,7 +30,7 @@ persName {color:red;}
 
 placeName {color:green;}
 
-tc|racecdesc {color:green;}
+tc|racedesc {color:green;}
 
 salute {display:block;
 	font-style:italic;}
