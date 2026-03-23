@@ -61,4 +61,62 @@ p {margin-left: 3em;
 	display: block; 
 }
 
-close
+closer {margin-left: 3em; 
+	margin-top: 1em; 
+}
+name {color:red;}
+
+tc|racedesc[type="explicit"] {color: green;}
+tc|racedesc[type="implied"] {color: blue;}
+
+tc|racecontext {color:purple;} 
+
+salute {display:block;
+	font-style:italic;}
+
+signed {font-family:fantasy;}
+
+pb:before {
+	content: "[page " attr(n) "]";
+	color:blue;
+	display:block;
+	margin-top:2em;
+	margin-bottom:2em;
+	margin-left: 2em;
+}
+
+lb {
+	display: block;
+}
+
+add:before {
+	content: "["
+}
+
+add {
+	color: red;
+	display:inline;
+}
+
+p > add {
+	color:lime;
+}
+
+add:after {
+	content: "]"
+}
+
+
+list[type="numbered"] > item {
+	display:block;
+}
+
+list[type="numbered"] > item:before { 
+	content: attr(n) ". my stuff here"; 
+	}
+	
+	
+	
+	
+	
+	
